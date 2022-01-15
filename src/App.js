@@ -1,9 +1,10 @@
 import 'tui-image-editor/dist/tui-image-editor.css';
 import './App.css';
-import ImageEditor from '@toast-ui/react-image-editor';
+import ImageEditor from '@toast-ui/react-image-editor'; // Libreria Toast UI
 import { useEffect } from 'react';
 
 
+// Funcion principal de la aplicación
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
     document.querySelector('.tui-image-editor-header-logo').setAttribute('src', 'https://logos.flamingtext.com/Name-Logos/Noe-design-sketch-name.png')
   }, [])
 
+// Aquí asignamos los parametros y mandamos a llamar la biblioteca toast ui dentro de un image editor  
   return (
     <ImageEditor
     includeUI={{
