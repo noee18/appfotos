@@ -13,6 +13,32 @@
   }
 }
 
+
+.tui-image-editor-header-logo,
+.tui-image-editor-partition,
+.tui-image-editor-menu,
+.tui-image-editor-container .tui-image-editor-menu, .tui-image-editor-container .tui-image-editor-help-menu
+{
+  display: none;
+}
+
+element.style{
+  display: none;
+}
+
+.tui-image-editor-container .tui-image-editor-submenu .tui-image-editor-submenu-item li:nth-child(3),
+.tui-image-editor-container .tui-image-editor-submenu .tui-image-editor-submenu-item li:nth-child(4),
+.tui-image-editor-container .tui-image-editor-submenu .tui-image-editor-submenu-item li:nth-child(5)
+{
+  display: none;
+}
+
+.tui-image-editor-help-menu.top{
+  display: none;
+}
+
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
